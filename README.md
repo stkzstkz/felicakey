@@ -7,4 +7,7 @@
 systemctl status Kagi
 ```
 で実行状況の確認できるようになっています．
-### 
+### 関数の役割
+- webhook
+  Discordへ通知
+- sql_add
