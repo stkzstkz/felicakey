@@ -17,7 +17,7 @@ suica = nfc.clf.RemoteTarget("212F")
 # スイカであることの設定
 suica.sensf_req = bytearray.fromhex("0000030000")
 # webhookのurl
-webhook_url = 'https://discord.com/api/webhooks/1091661784504606790/oANIxsHROx2OCY_X6eGLmKAJmQN7QBB5BWYS59V9_b6S-ndfF_9PSmqhufhpXcz3pzyw'
+webhook_url = 'url'
 
 # webhookの設定
 def webhook(name, door):
@@ -193,9 +193,9 @@ def main(argv):
         else:
             print("Welcome!!")
             start_system(cur, isopen)
-    #except Exception as e:
-    #    print("An error has occured!")
-    #    print(e)
+    except Exception as e:
+        print("An error has occured!")
+        print(e)
     finally:
         conn.commit()
         conn.close()
@@ -203,7 +203,3 @@ def main(argv):
 
 if __name__ == "__main__":
     main(sys.argv)
-
-# serviceファイルのproxy設定たち(サークル棟ならいらないっぽいのでここに置く)
-# Environment="HTTP_PROXY=http://proxy.cc.uec.ac.jp:8080"
-# Environment="HTTPS_PROXY=http://proxy.cc.uec.ac.jp:8080"
