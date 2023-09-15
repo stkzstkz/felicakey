@@ -1,0 +1,11 @@
+#/etc/systemd/system/のなかにあります．
+[Unit]
+Description=Kagi daemon
+
+[Service]
+ExecStart=/home/kazuki/FelicaKey/KM4K.py
+Restart=always
+Type=simple
+Environment=PYTHONUNBUFFERED=1
+[Install]
+WantedBy=multi-user.target
