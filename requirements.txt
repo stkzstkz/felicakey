@@ -1,0 +1,5 @@
+discord==2.2.2
+discord.py==2.2.2
+nfcpy==1.0.4
+requests==2.25.1
+wiringpi==2.60.1
