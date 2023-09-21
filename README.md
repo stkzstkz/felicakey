@@ -1,12 +1,27 @@
 # felicakey
-## 概要
-### 操作について
-工研の鍵を参考にしたので[KM4K](https://github.com/ueckoken/KM4K "ueckoken/KM4K")を確認すること．
-ただし，systemedに登録されてるserviceファイルはKagi.serviceという名称になっているので注意．
+## 操作について
+`>name`のところでDiscordのユーザーIDを入力すること．
+### 登録
+```
+$./Register
+>name ******************
+Touch your Suica
+Registered (idm:************)
+```
+### 削除
+```
+$./Unregister.sh 
+Delete User
+name> **********
+Deleted (name:**********)
+```
+## 確認について
 ```
 systemctl status Kagi
 ```
-で実行状況の確認できるようになっています．
+で実行状況の確認ができる．
+## その他
+工研の鍵を参考にしたので[KM4K](https://github.com/ueckoken/KM4K "ueckoken/KM4K")も確認してみるとよい．
 ### 関数の役割
 - webhook
   Discordへ通知
