@@ -21,6 +21,7 @@ Deleted (name:**********)
 systemctl status Kagi
 ```
 で実行状況の確認ができる．
+詳しくは[wiki](https://member.x68uec.org/fswiki/wiki.cgi?page=FelicaKey#p26)を確認すること．
 ## その他
 工研の鍵を参考にしたので[KM4K](https://github.com/ueckoken/KM4K "ueckoken/KM4K")も確認してみるとよい．
 ### 関数の役割
