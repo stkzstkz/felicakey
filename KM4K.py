@@ -16,7 +16,7 @@ from wirservo import DoorGPIOContoroller as Door
 suica = nfc.clf.RemoteTarget("212F")
 # スイカであることの設定
 suica.sensf_req = bytearray.fromhex("0000030000")
-# webhookのurl
+# webhookのurl(wiki参照)
 webhook_url = 'url'
 
 # webhookの設定
