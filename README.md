@@ -23,7 +23,3 @@ systemctl status Kagi
 で実行状況の確認ができる．
 ## その他
 工研の鍵を参考にしたので[KM4K](https://github.com/ueckoken/KM4K "ueckoken/KM4K")も確認してみるとよい．
-### 関数の役割
-- webhook
-  Discordへ通知
-- sql_add
